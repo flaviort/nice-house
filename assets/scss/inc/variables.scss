@@ -1,0 +1,31 @@
+// breakpoints
+$mq-xs-min: "only screen and (min-width: 421px)";
+$mq-sm-min: "only screen and (min-width: 576px)";
+$mq-md-min: "only screen and (min-width: 768px)";
+$mq-lg-min: "only screen and (min-width: 993px)";
+$mq-xl-min: "only screen and (min-width: 1201px)";
+$mq-2xl-min: "only screen and (min-width: 1601px)";
+
+// fonts
+$source: 			    'Source Serif Pro', serif;
+$rock-salt: 		    'Rock Salt', cursive;
+
+// weights
+$light: 				300;
+$regular: 				400;
+$semi-bold: 			600;
+$bold: 					700;
+
+// colors
+$white:					#fff;
+$almost-white:			#f2f2f2;
+$gray-lightest:			#ddd;
+$gray-lighter:			#bbb;
+$gray-light:			#999;
+$gray-medium:			#666;
+$gray-dark:				#333;
+$gray-darker:			#222;
+$gray-darkest:			#111;
+$black:					#000;
+
+$red:					#e11919;

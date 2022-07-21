@@ -1,0 +1,197 @@
+.text-small,
+.text-medium-small,
+.text-medium,
+.text-big,
+.text-bigger {
+	font-family: $source;
+	font-weight: $regular;
+	font-variant: no-common-ligatures;
+	letter-spacing: 1px;
+
+
+	strong, b {
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		font-weight: $bold;
+		font-family: inherit;
+	}
+
+	* {
+		font-family: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		font-size: inherit;
+		color: inherit;
+	}
+
+	small {
+		font-size: 45%;
+		vertical-align: super;
+	}
+}
+
+.text-small {
+	font-size: 12px;
+	line-height: 1.6;
+
+	@media #{$mq-md-min} {
+		font-size: 14px;
+	}
+}
+
+.text-medium-small {
+	font-size: 14px;
+	line-height: 1.6;
+
+	@media #{$mq-lg-min} {
+		font-size: 16px;
+	}
+}
+
+.text-medium {
+	font-size: 16px;
+	line-height: 1.6;
+
+	@media #{$mq-sm-min} {
+		font-size: 18px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 20px;
+	}
+}
+
+.text-big {
+	font-size: 22px;
+	line-height: 1.6;
+
+	@media #{$mq-sm-min} {
+		font-size: 24px;
+	}
+
+	@media #{$mq-md-min} {
+		font-size: 26px;
+	}
+
+	@media #{$mq-lg-min} {
+		font-size: 28px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 32px;
+	}
+}
+
+.text-bigger {
+	font-size: 32px;
+	line-height: 1.4;
+
+	@media #{$mq-sm-min} {
+		font-size: 34px;
+	}
+
+	@media #{$mq-md-min} {
+		font-size: 36px;
+	}
+
+	@media #{$mq-lg-min} {
+		font-size: 38px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 40px;
+	}
+}
+
+.title-medium,
+.title-big,
+.title-bigger {
+	font-family: $rock-salt;
+	font-weight: $regular;
+	font-variant: no-common-ligatures;
+
+	strong, b {
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		font-weight: $regular;
+		font-family: inherit;
+	}
+
+	* {
+		font-family: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		font-size: inherit;
+		color: inherit;
+	}
+
+	small {
+		font-size: 45%;
+		vertical-align: super;
+	}
+}
+
+.title-medium {
+	font-size: 20px;
+	line-height: 1.2;
+
+	@media #{$mq-md-min} {
+		font-size: 22px;
+	}
+
+	@media #{$mq-lg-min} {
+		font-size: 24px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 26px;
+	}
+
+	@media #{$mq-2xl-min} {
+		font-size: 30px;
+	}
+}
+
+.title-big {
+	font-size: 30px;
+	line-height: 1.2;
+
+	@media #{$mq-sm-min} {
+		font-size: 34px;
+	}
+
+	@media #{$mq-lg-min} {
+		font-size: 36px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 40px;
+	}
+}
+
+.title-bigger {
+	font-size: 50px;
+	line-height: .85;
+
+	@media #{$mq-sm-min} {
+		font-size: 60px;
+	}
+
+	@media #{$mq-md-min} {
+		font-size: 70px;
+	}
+
+	@media #{$mq-lg-min} {
+		font-size: 80px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 90px;
+	}
+
+	@media #{$mq-2xl-min} {
+		font-size: 100px;
+	}
+}

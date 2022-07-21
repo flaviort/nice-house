@@ -1,0 +1,20 @@
+// atoms
+@import 'atoms/variables';
+@import 'atoms/breakpoints';
+@import 'atoms/reset';
+@import 'atoms/scroll';
+@import 'atoms/containers';
+@import 'atoms/fonts';
+@import 'atoms/texts';
+@import 'atoms/buttons';
+@import 'atoms/inputs';
+@import 'atoms/animations';
+
+// sections
+@import 'sections/fs-menu';
+@import 'sections/top-menu';
+@import 'sections/footer';
+@import 'sections/popups';
+
+// pages
+@import 'pages/home';

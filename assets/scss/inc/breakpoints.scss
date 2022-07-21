@@ -1,0 +1,24 @@
+body {
+	&:before {
+		content: 'mob';
+		display: block;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin: 20px;
+		padding: 10px;
+		font-size: 14px;
+		color: white;
+		background: black;
+		z-index: 99999999999;
+		opacity: .5;
+		font-family: sans-serif;
+
+		@media #{$mq-xs-min} { content: 'xs'; }
+		@media #{$mq-sm-min} { content: 'sm'; }
+		@media #{$mq-md-min} { content: 'md'; }
+		@media #{$mq-lg-min} { content: 'lg'; }
+		@media #{$mq-xl-min} { content: 'xl'; }
+		@media #{$mq-2xl-min} { content: '2xl'; }
+	}
+}

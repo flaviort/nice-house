@@ -1,0 +1,16 @@
+.container {
+	max-width: 100%;
+	width: 100%;
+	@media #{$mq-xs-min} { max-width: 95%; }
+	@media #{$mq-md-min} { max-width: 90%; }
+	@media #{$mq-lg-min} { max-width: 85%; }
+	@media #{$mq-xl-min} { max-width: 80%; }
+	@media #{$mq-2xl-min} { max-width: 1320px; }
+}
+
+.container-big {
+	max-width: 100%;
+	@media #{$mq-xs-min} { max-width: 95%; }
+	@media #{$mq-md-min} { max-width: 90%; }
+	@media #{$mq-2xl-min} { max-width: 1600px; }
+}
